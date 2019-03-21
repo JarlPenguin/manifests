@@ -10,6 +10,8 @@ TWRP-7.1.xml - Local manifest XML file for TWRP (included with OmniROM 7.1)
 
 TWRP-9.0.xml - Local manifest XML file for TWRP (included with OmniROM 9.0) (experimental)
 
+TWRP-Treble.xml - Local manifest XML file for TWRP (Project Treble) (included with OmniROM 7.1) (experimental)
+
 LOS15.1.xml, LOS16.xml, LOS16Enforcing.xml goes in <repo folder>/.repo/local_manifests/roomservice.xml
 
-TWRP-7.1.xml, TWRP-9.0.xml goes in <repo folder>/.repo/local_manifest.xml
+TWRP-7.1.xml, TWRP-9.0.xml, TWRP-Treble.xml goes in <repo folder>/.repo/local_manifest.xml
