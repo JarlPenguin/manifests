@@ -3,4 +3,5 @@
   <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana-TWRP" remote="github" revision="twrp-treble" />
   <project path="kernel/motorola/msm8937" name="montanadevelopment/kernel_motorola_msm8937" remote="github" revision="twrp-treble" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="cm-14.1" />
 </manifest>
