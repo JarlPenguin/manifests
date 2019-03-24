@@ -4,14 +4,12 @@ LOS15.1.xml - Room service XML file for LineageOS 15.1
 
 LOS16.xml - Room service XML file for LineageOS 16.0
 
-LOS16Enforcing.xml - Room service XML file for LineageOS 16.0 w/ SELinux Enforcing (experimental)
+PE9CAF.xml - Room service XML file for Pixel Experience 9.0 (CAF) (experimental)
 
-TWRP-7.1.xml - Local manifest XML file for TWRP (included with OmniROM 7.1)
+TWRP.xml - Local manifest XML file for TWRP (included with OmniROM 8.1/9.0)
 
-TWRP-9.0.xml - Local manifest XML file for TWRP (included with OmniROM 9.0) (experimental)
+TWRP-Treble.xml - Local manifest XML file for TWRP (Project Treble) (included with OmniROM 8.1/9.0) (experimental)
 
-TWRP-Treble.xml - Local manifest XML file for TWRP (Project Treble) (included with OmniROM 7.1) (experimental)
+LOS15.1.xml, LOS16.xml, PE9CAF.xml goes in <repo folder>/.repo/local_manifests/roomservice.xml
 
-LOS15.1.xml, LOS16.xml, LOS16Enforcing.xml goes in <repo folder>/.repo/local_manifests/roomservice.xml
-
-TWRP-7.1.xml, TWRP-9.0.xml, TWRP-Treble.xml goes in <repo folder>/.repo/local_manifest.xml
+TWRP.xml, TWRP-Treble.xml goes in <repo folder>/.repo/local_manifest.xml
