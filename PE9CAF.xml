@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github" revision="aosp-9.0-caf" />
-  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github" revision="lineage-16.0" />
-  <project path="vendor/motorola/montana" name="montanadevelopment/proprietary_vendor_motorola_montana" remote="github" revision="pie-caf" />
+  <remote name="github1"
+          fetch="https://github.com" />
+  <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github1" revision="staging/aosp-9.0-caf" />
+  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="pie" />
+  <project path="vendor/motorola/montana" name="montanadevelopment/proprietary_vendor_motorola_montana" remote="github1" revision="pie-caf" />
 </manifest>

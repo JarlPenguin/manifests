@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github1"
+          fetch="https://github.com" />
+  <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github" revision="lineage-16.0" />
+  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github" revision="lineage-16.0" />
+  <project path="vendor/motorola/montana" name="montanadevelopment/proprietary_vendor_motorola_montana" remote="github" revision="pie" />
+  <project path="system/qcom" name=LineageOS/android_system_qcom" remote="github" revision="lineage-16.0"/>
+</manifest>
