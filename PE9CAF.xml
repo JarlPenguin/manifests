@@ -2,7 +2,7 @@
 <manifest>
   <remote name="github1"
           fetch="https://github.com" />
-  <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github1" revision="staging/aosp-9.0-caf" />
-  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="pie" />
+  <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github1" revision="staging/caf-9.0" />
+  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="oreopie-radium" />
   <project path="vendor/motorola/montana" name="montanadevelopment/proprietary_vendor_motorola_montana" remote="github1" revision="pie-caf" />
 </manifest>
