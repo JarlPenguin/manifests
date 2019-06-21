@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!--Remote-->
   <remote name="github1"
           fetch="https://github.com" />
+  
+  <!--Device repos--> 
   <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github1" revision="cm-14.1" />
   <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="nougat" />
   <project path="vendor/motorola/montana" name="montanadevelopment/proprietary_vendor_motorola_montana" remote="github1" revision="nougat" />
+  
+  <!--Dependencies-->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+
 </manifest>

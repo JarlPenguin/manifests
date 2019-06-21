@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!--Remote-->
   <remote name="github1"
           fetch="https://github.com" />
+  
+  <!--Device repos--> 
   <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github1" revision="twrp-9.0" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github1" revision="cm-14.1" />
-</manifest>
+  
+  <!--Dependencies-->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  
+</manifest>  
