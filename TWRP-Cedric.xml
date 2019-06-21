@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Remote-->
+  <remote name="github1"
+          fetch="https://github.com" />
+  
+  <!--Device repos--> 
+  <project path="device/motorola/cedric" name="JarlPenguin/android_device_motorola_cedric-soham" remote="github1" revision="twrp-9.0" />
+  <project path="kernel/motorola/msm8937" name="Sohamlad7/android_kernel_motorola_msm8937" remote="github1" revision="twrp-treble" />
+  
+  <!--Dependencies-->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  
+</manifest>  
