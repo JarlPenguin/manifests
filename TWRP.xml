@@ -8,7 +8,4 @@
   <!--Device repos--> 
   <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github1" revision="twrp-9.0" />
   
-  <!--Dependencies-->
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-  
 </manifest>  
