@@ -13,4 +13,8 @@
   <!--Dependencies-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" />
 
+  <!--Updater-->
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="montanadevelopment/LineageOS-android_packages_apps_Updater" remote="github1" revision="lineage-15.1" />
+
 </manifest>
