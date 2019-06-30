@@ -4,6 +4,10 @@
   <!--Remote-->
   <remote name="github1"
           fetch="https://github.com" />
+
+  <!--TWRP-->  
+  <remove-project name="android_bootable_recovery" />
+  <project path="bootable/recovery" name="OmniROM/android_bootable_recovery" remote="github1"  revision="android-9.0" />
   
   <!--Device repos--> 
   <project path="device/motorola/cedric" name="JarlPenguin/android_device_motorola_cedric-soham" remote="github1" revision="twrp-9.0" />
