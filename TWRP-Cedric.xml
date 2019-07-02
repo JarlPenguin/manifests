@@ -10,7 +10,7 @@
   <project path="bootable/recovery" name="OmniROM/android_bootable_recovery" remote="github1"  revision="android-9.0" />
   
   <!--Device repos--> 
-  <project path="device/motorola/cedric" name="JarlPenguin/android_device_motorola_cedric-soham" remote="github1" revision="twrp-9.0" />
+  <project path="device/motorola/cedric" name="cedrictreble/android_device_motorola_cedric" remote="github1" revision="twrp-7.1" />
   <project path="kernel/motorola/msm8937" name="Sohamlad7/android_kernel_motorola_msm8937" remote="github1" revision="twrp-treble" />
   
 </manifest>  
