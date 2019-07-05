@@ -4,11 +4,13 @@
   <!--Remote-->
   <remote name="github1"
           fetch="https://github.com" />
+  <remote name="github2"
+          fetch="ssh://git@github.com" />
   
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github1" revision="staging/lineage-16.0-treble" />
+  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" remote="github2" revision="staging/lineage-16.0-treble" />
   <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="oreopie-treble" />
-  <project path="vendor/motorola/montana" name="montanadevelopment/proprietary_vendor_motorola_montana" remote="github1" revision="staging/lineage-16.0-treble" />
+  <project path="vendor/motorola/montana" name="JarlPenguin/proprietary_vendor_motorola_montana" remote="github2" revision="staging/lineage-16.0-treble" />
   
   <!--Dependencies-->
   <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" />
