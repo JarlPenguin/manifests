@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Remote-->
+  <remote name="github1"
+          fetch="https://github.com" />
+  <remote name="github2"
+          fetch="ssh://git@github.com" />
+  
+  <!--Device repos--> 
+  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" remote="github2" revision="pixel/pie-caf" />
+  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="oreopie-treble" />
+  <project path="vendor/motorola/montana" name="JarlPenguin/proprietary_vendor_motorola_montana" remote="github2" revision="pixel/pie-caf" />
+  
+  <!--Dependencies-->
+  <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="pixel" />
+
+</manifest>  
