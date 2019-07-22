@@ -8,8 +8,8 @@
           fetch="ssh://git@github.com" />
   
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" remote="github2" revision="cr-7.0" />
-  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="oreopie-treble" />
-  <project path="vendor/motorola/montana" name="JarlPenguin/proprietary_vendor_motorola_montana" remote="github2" revision="lineage-16.0" />
+  <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github1" revision="cr-7.0" />
+  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="oreopie" />
+  <project path="vendor/motorola/montana" name="montanadevelopment/proprietary_vendor_motorola_montana" remote="github1" revision="lineage-16.0" />
   
 </manifest>  
