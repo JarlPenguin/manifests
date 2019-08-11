@@ -2,8 +2,8 @@
 <manifest>
 
   <!--TWRP-->  
-  <remove-project name="android_bootable_recovery" />
-  <project path="bootable/recovery" name="OmniROM/android_bootable_recovery" remote="github1"  revision="android-9.0" />
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="OmniROM/android_bootable_recovery" remote="github"  revision="android-9.0" />
 
   <!--Device repos--> 
   <project path="device/xiaomi/cactus" name="xiaomi-mt6765/android_device_xiaomi_cactus" remote="github" revision="android-9.0" />
