@@ -5,10 +5,6 @@
   <remote name="github1"
           fetch="https://github.com" />
 
-  <!--TWRP-->  
-  <remove-project name="android_bootable_recovery" />
-  <project path="bootable/recovery" name="OmniROM/android_bootable_recovery" remote="github1"  revision="android-9.0" />
-  
   <!--Device repos--> 
   <project path="device/motorola/cedric" name="cedrictreble/android_device_motorola_cedric" remote="github1" revision="twrp-7.1" />
   <project path="kernel/motorola/msm8937" name="Sohamlad7/android_kernel_motorola_msm8937" remote="github1" revision="twrp-treble" />
