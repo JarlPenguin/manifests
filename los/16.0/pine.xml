@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Device repos--> 
+  <project path="device/xiaomi/pine" name="JarlPenguin/android_device_xiaomi_pine" remote="github" revision="lineage-16.0" />
+  <project path="kernel/xiaomi/pine" name="wulan17/kernel_xiaomi_sdm439" remote="github" revision="pine" />
+  
+</manifest>  
