@@ -3,18 +3,17 @@
 
   <!--Remote-->
   <remote name="github1"
-          fetch="https://github.com" />
-  <remote name="github2"
-          fetch="ssh://git@github.com" />
+          fetch="ssh://git@github.com" 
+          revision="lineage-16.0"/>
   
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" remote="github2" revision="lineage-16.0" />
-  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github1" revision="oreopie-treble" />
-  <project path="vendor/motorola/montana" name="JarlPenguin/proprietary_vendor_motorola_montana" remote="github2" revision="lineage-16.0" />
+  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" remote="github1" />
+  <project path="kernel/motorola/msm8937" name="montanadevelopment/android_kernel_motorola_msm8937" remote="github" revision="oreopie-treble" />
+  <project path="vendor/motorola/montana" name="JarlPenguin/proprietary_vendor_motorola_montana" remote="github1" />
   
   <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" />
+  <project path="external/bson" name="LineageOS/android_external_bson" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
 </manifest>  

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!--Remote-->
-  <remote name="github1"
-          fetch="https://github.com" />
-  
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="moto-msm8937-common/android_device_motorola_montana" remote="github1" revision="lineage-15.1" />
-  <project path="device/motorola/msm8937-common" name="moto-msm8937-common/android_device_motorola_msm8937-common" remote="github1" revision="lineage-15.1" />
-  <project path="kernel/motorola/msm8937" name="moto-msm8937-common/android_kernel_motorola_msm8937" remote="github1" revision="lineage-15.1" />
-  <project path="vendor/motorola/montana" name="moto-msm8937-common/proprietary_vendor_motorola_montana" remote="github1" revision="lineage-15.1" />
-  <project path="vendor/motorola/msm8937-common" name="moto-msm8937-common/proprietary_vendor_motorola_msm8937-common" remote="github1" revision="lineage-15.1" />
+  <project path="device/motorola/montana" name="moto-msm8937-common/android_device_motorola_montana" />
+  <project path="device/motorola/msm8937-common" name="moto-msm8937-common/android_device_motorola_msm8937-common" />
+  <project path="kernel/motorola/msm8937" name="moto-msm8937-common/android_kernel_motorola_msm8937" />
+  <project path="vendor/motorola/montana" name="moto-msm8937-common/proprietary_vendor_motorola_montana" />
+  <project path="vendor/motorola/msm8937-common" name="moto-msm8937-common/proprietary_vendor_motorola_msm8937-common" />
   
   <!--Dependencies-->
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" />
-  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <project path="external/bson" name="LineageOS/android_external_bson" />
 
 </manifest>
