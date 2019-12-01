@@ -3,7 +3,7 @@
 
   <!--Device repos--> 
   <project path="device/motorola/montana" name="montanadevelopment/android_device_motorola_montana" remote="github" revision="cr-7.0" />
-  <project path="kernel/motorola/msm8937" name="moto-msm8937-common/android_kernel_motorola_msm8937" remote="github" revision="lineage-15.1" />
+  <project path="kernel/motorola/msm8937" name="moto-msm8937/android_kernel_motorola_msm8937" remote="github" revision="lineage-15.1" />
   <project path="vendor/motorola/montana" name="montanadevelopment/proprietary_vendor_motorola_montana" remote="github" revision="lineage-16.0" />
   
 </manifest>  

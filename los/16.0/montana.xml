@@ -2,11 +2,11 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="moto-msm8937-common/android_device_motorola_montana" revision="treble/lineage-16.0" />
-  <project path="device/motorola/msm8937-common" name="moto-msm8937-common/android_device_motorola_msm8937-common" revision="treble/lineage-16.0" />
-  <project path="kernel/motorola/msm8937" name="moto-msm8937-common/android_kernel_motorola_msm8937" />
-  <project path="vendor/motorola/montana" name="moto-msm8937-common/proprietary_vendor_motorola_montana" revision="treble/lineage-16.0" />
-  <project path="vendor/motorola/msm8937-common" name="moto-msm8937-common/proprietary_vendor_motorola_msm8937-common" revision="treble/lineage-16.0" />
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="treble/lineage-16.0" />
+  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="treble/lineage-16.0" />
+  <project path="kernel/motorola/msm8937" name="moto-msm8937/android_kernel_motorola_msm8937" />
+  <project path="vendor/motorola/montana" name="moto-msm8937/proprietary_vendor_motorola_montana" revision="treble/lineage-16.0" />
+  <project path="vendor/motorola/msm8937-common" name="moto-msm8937/proprietary_vendor_motorola_msm8937-common" revision="treble/lineage-16.0" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
