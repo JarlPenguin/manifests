@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github1"
+           fetch="https://github.com/" />
+
   <!--Device repos--> 
-  <project path="device/motorola/cedric" name="cedrictreble/android_device_motorola_cedric" remote="github" revision="twrp-7.1" />
-  <project path="kernel/motorola/msm8937" name="Sohamlad7/android_kernel_motorola_msm8937" remote="github" revision="twrp-treble" />
+  <project path="device/motorola/cedric" name="cedrictreble/android_device_motorola_cedric" remote="github1" revision="twrp-7.1" />
+  <project path="kernel/motorola/msm8937" name="Sohamlad7/android_kernel_motorola_msm8937" remote="github1" revision="twrp-treble" />
   
 </manifest>  
