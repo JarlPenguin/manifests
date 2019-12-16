@@ -7,5 +7,8 @@
   <project path="device/xiaomi/mt6765-common" name="xiaomi-mt6765/android_device_xiaomi_mt6765-common"/>
   <project path="kernel/xiaomi/mt6765" name="xiaomi-mt6765/android_kernel_xiaomi_mt6765"/>
   <project path="vendor/xiaomi" name="xiaomi-mt6765/proprietary_vendor_xiaomi" />
+
+  <!--Dependencies-->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   
 </manifest>  
