@@ -1,0 +1,28 @@
+# Android Open Source Project #
+
+```bash
+
+repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r20
+
+git clone https://github.com/JarlPenguin/aosp_local_manifest .repo/local_manifests -b android-10
+```
+
+# Sync the source
+```bash
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
+# Set up environment
+```bash
+$ . build/envsetup.sh
+```
+
+# Choose a target
+```bash
+$ lunch aosp_$device-userdebug
+```
+
+# Build the code
+```bash
+$ mka bacon
+```
