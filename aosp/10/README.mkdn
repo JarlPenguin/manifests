@@ -2,7 +2,7 @@
 
 ```bash
 
-repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r20
+repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r25
 
 git clone https://github.com/JarlPenguin/aosp_local_manifest .repo/local_manifests -b android-10
 ```
