@@ -13,4 +13,7 @@
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
+  <!--Remove atv-->
+  <remove-project name="device/google/atv" />
+
 </manifest>  
