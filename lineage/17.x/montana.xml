@@ -13,7 +13,12 @@
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
-  <!--Remove atv-->
+  <!--Remove-->
   <remove-project name="device/google/atv" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+
+  <!--Audio HAL-->
+  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="JarlPenguin/android_hardware_qcom_audio-1" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8996" />
 
 </manifest>  
