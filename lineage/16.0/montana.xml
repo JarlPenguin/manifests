@@ -2,15 +2,12 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="staging/lineage-16.0" />
-  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="staging/lineage-16.0" />
-  <project path="kernel/motorola/msm8937" name="moto-msm8937/android_kernel_motorola_msm8937" />
-  <project path="vendor/motorola/montana" name="moto-msm8937/proprietary_vendor_motorola_montana" revision="staging/lineage-16.0" />
-  <project path="vendor/motorola/msm8937-common" name="moto-msm8937/proprietary_vendor_motorola_msm8937-common" revision="staging/lineage-16.0" />
+  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" />
+  <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_msm8937-common-1" />
+  <project path="kernel/motorola/msm8937" name="moto-msm8937/android_kernel_motorola_msm8937" revision="lineage-16.0-sar" />
+  <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
 </manifest>  
