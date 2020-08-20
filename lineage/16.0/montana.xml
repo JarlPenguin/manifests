@@ -12,4 +12,8 @@
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
+  <!--Updater-->
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="MontanaDevelopment/android_packages_apps_Updater" />
+
 </manifest>  
