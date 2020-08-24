@@ -2,6 +2,7 @@
 <manifest>
 
   <!--Device repos--> 
+  <project path="device/motorola/hannah" name="JarlPenguin/android_device_motorola_hannah" />
   <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" />
   <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_msm8937-common-1" revision="staging/lineage-16.0" />
   <project path="kernel/motorola/msm8937" name="HyperTeam/android_kernel_motorola_msm8937" />
