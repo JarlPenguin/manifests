@@ -2,23 +2,17 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" remote="private" revision="staging/lineage-17.1" />
-  <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_msm8937-common" remote="private" revision="staging/lineage-17.1" />
-  <project path="kernel/motorola/msm8937" name="moto-msm8937/android_kernel_motorola_msm8937" />
-  <project path="vendor/motorola/montana" name="JarlPenguin/proprietary_vendor_motorola_montana" remote="private" revision="staging/lineage-17.1" />
-  <project path="vendor/motorola/msm8937-common" name="JarlPenguin/proprietary_vendor_motorola_msm8937-common" remote="private" revision="staging/lineage-17.1" />
+  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" />
+  <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_msm8937-common-1" />
+  <project path="kernel/motorola/msm8937" name="JarlPenguin/android_kernel_motorola_msm8937" />
+  <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
-  <!--Remove-->
-  <remove-project name="device/google/atv" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-
-  <!--Audio HAL-->
-  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="JarlPenguin/android_hardware_qcom_audio-1" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8996" />
+  <!--Updater-->
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="MontanaDevelopment/android_packages_apps_Updater" />
 
 </manifest>  
