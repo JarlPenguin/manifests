@@ -4,4 +4,6 @@
 
 `los` - contains manifests for LineageOS (14.1, 15.1, 16.0, 17.x)
 
+`pe` - contains manifests for Pixel Experience (10)
+
 `twrp` - contains manifests for TeamWin Recovery Project (7.1, 9.0)
