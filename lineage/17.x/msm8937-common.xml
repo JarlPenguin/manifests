@@ -2,6 +2,7 @@
 <manifest>
 
   <!--Device repos--> 
+  <project path="device/motorola/cedric" name="JarlPenguin/android_device_motorola_cedric" />
   <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" />
   <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_msm8937-common-1" />
   <project path="kernel/motorola/msm8937" name="JarlPenguin/android_kernel_motorola_msm8937" />
