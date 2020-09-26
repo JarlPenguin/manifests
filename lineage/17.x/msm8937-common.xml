@@ -4,10 +4,10 @@
   <!--Device repos--> 
   <project path="device/motorola/cedric" name="JarlPenguin/android_device_motorola_cedric" />
   <project path="device/motorola/hannah" name="JarlPenguin/android_device_motorola_hannah" />
-  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" />
+  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" revision="staging/lineage-17.1" />
   <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_msm8937-common-1" />
   <project path="kernel/motorola/msm8937" name="JarlPenguin/android_kernel_motorola_msm8937" />
-  <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola" />
+  <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola" revision="staging/lineage-17.1" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
