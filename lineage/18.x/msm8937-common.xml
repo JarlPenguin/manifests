@@ -31,8 +31,8 @@
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" revision="6882cfb7f08134bb7f50b230d1ccff5594f27c5a" />
 
   <!--Apps-->
-  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
-  
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" />
+
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-17.1" />
