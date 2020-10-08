@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Device repos--> 
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" remote="private" />
+  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" remote="private" />
+  <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" revision="lineage-17.1" />
+  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" remote="private" />
+
+  <!--Qualcomm repos-->
+  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" >
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="a11ce8ff780183c69aa0cc530fc60ac981002828" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-18.0-caf" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" revision="a005ffd39383ecd89760007c0619f86525af590a" />
+  <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" revision="6882cfb7f08134bb7f50b230d1ccff5594f27c5a" />
+
+  <!--Apps-->
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
+  
+  <!--Dependencies-->
+  <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-17.1" />
+
+</manifest>
+
