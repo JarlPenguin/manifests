@@ -4,7 +4,7 @@
   <!--Device repos--> 
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" remote="private" />
   <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" remote="private" />
-  <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" revision="lineage-17.1" />
+  <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" remote="private" />
 
   <!--GCC-->
