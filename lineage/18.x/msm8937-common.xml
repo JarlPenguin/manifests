@@ -34,6 +34,10 @@
   <!--Apps-->
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" />
 
+  <!--Recovery-->
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" revision="4bb35f85a74b4e4cff9d393b13a1a43987189a49" />
+
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-17.1" />
