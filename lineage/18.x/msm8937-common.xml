@@ -9,7 +9,7 @@
 
   <!--GCC-->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" revision="lineage-17.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" revision="lineage-17.1" />
 
   <!--Qualcomm repos-->
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" >
@@ -32,11 +32,11 @@
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" revision="6882cfb7f08134bb7f50b230d1ccff5594f27c5a" />
 
   <!--Apps-->
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" remote="aosp" />
 
   <!--Recovery-->
   <remove-project name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" revision="4bb35f85a74b4e4cff9d393b13a1a43987189a49" />
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" revision="4bb35f85a74b4e4cff9d393b13a1a43987189a49" />
 
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" />
