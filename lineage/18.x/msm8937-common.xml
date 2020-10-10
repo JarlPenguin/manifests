@@ -36,7 +36,7 @@
 
   <!--Recovery-->
   <remove-project name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" revision="4bb35f85a74b4e4cff9d393b13a1a43987189a49" />
+  <project path="bootable/recovery" name="moto-msm8937/android_bootable_recovery" groups="pdk" />
 
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" />
