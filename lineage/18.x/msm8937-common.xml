@@ -32,7 +32,7 @@
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" revision="6882cfb7f08134bb7f50b230d1ccff5594f27c5a" />
 
   <!--Apps-->
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" groups="pdk-fs" revision="58c4fc37ce6a6dbd3505568e639eab2e33e8296b" />
 
   <!--Recovery-->
   <remove-project name="LineageOS/android_bootable_recovery" />
