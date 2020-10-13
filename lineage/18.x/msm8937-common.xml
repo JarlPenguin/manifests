@@ -38,6 +38,10 @@
   <remove-project name="LineageOS/android_bootable_recovery" />
   <project path="bootable/recovery" name="moto-msm8937/android_bootable_recovery" groups="pdk" />
 
+  <!--Lineage-->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="moto-msm8937/android_vendor_lineage" />
+
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-17.1" />
