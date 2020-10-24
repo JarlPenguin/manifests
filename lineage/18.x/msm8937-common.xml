@@ -16,7 +16,7 @@
   <!--Qualcomm repos-->
   <remove-project name="LineageOS/android_hardware_qcom_wlan" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="c5ce8913241634a18b6f43c940f87ab3f2f6b1e9" />
-  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" revision="lineage-17.1" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" revision="ffd4bcb0e07a135e9bb65b07e33f6c8f5f1c47b9" />
 
   <!--Recovery-->
   <remove-project name="LineageOS/android_bootable_recovery" />
