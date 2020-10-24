@@ -1,9 +1,7 @@
 # Local manifests
 
-`carbon` - contains manifests for CarbonROM (6.1, 7.0)
+`aosp` - contains manifests for AOSP
 
-`los` - contains manifests for LineageOS (14.1, 15.1, 16.0, 17.x)
+`lineage` - contains manifests for LineageOS
 
-`pe` - contains manifests for Pixel Experience (10)
-
-`twrp` - contains manifests for TeamWin Recovery Project (7.1, 9.0)
+`pe` - contains manifests for PixelExperience

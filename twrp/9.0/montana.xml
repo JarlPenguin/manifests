@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <!--Device repos--> 
-  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" remote="github" revision="twrp-9.0" />
-  
-</manifest>  

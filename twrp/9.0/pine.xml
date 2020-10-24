@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <!--Device repos--> 
-  <project path="device/xiaomi/pine" name="JarlPenguin/android_device_xiaomi_pine" remote="github" revision="android-9.0" />
-  
-</manifest>  

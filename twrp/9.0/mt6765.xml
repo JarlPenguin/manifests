@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <!--Device repos--> 
-  <project path="device/xiaomi/cactus" name="xiaomi-mt6765/android_device_xiaomi_cactus" remote="github" revision="android-9.0" />
-  <project path="device/xiaomi/cereus" name="xiaomi-mt6765/android_device_xiaomi_cereus" remote="github" revision="android-9.0" />
-  
-</manifest>  
