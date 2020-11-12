@@ -7,29 +7,17 @@
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" />
 
-  <!--Build-->
-  <remove-project name="LineageOS/android_build" />
-  <project path="build/make" name="LineageOS/android_build" groups="pdk" revision="8105750c95e0e3612d6be260a03246343f330991" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-
   <!--Qualcomm repos-->
   <remove-project name="LineageOS/android_hardware_qcom_wlan" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="c65becb1f99d00cd74e600f296d676e348d1cd9d" />
 
   <!--Recovery-->
   <remove-project name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" revision="8f436004531a9aaf7853780403c850f62078dd2b" />
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" revision="0a67c3bb6d37bc9a64681dba78df81fe1df450e3" />
 
   <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-17.1" />
+  <project path="external/bson" name="LineageOS/android_external_bson" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" />
 
 </manifest>
 
