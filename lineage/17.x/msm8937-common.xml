@@ -15,6 +15,6 @@
 
   <!--Updater-->
   <remove-project name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/apps/Updater" name="MontanaDevelopment/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="moto-msm8937/android_packages_apps_Updater" />
 
 </manifest>  
