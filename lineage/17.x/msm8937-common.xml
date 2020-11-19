@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="gerrit"
+          fetch="https://gerrit.kiam001.tk" />
+
   <!--Device repos--> 
   <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" />
-  <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
+  <project path="device/motorola/hannah" name="android/device/motorola/hannah" remote="gerrit" revision="a66c6151ab5d3c898863479f65505ff2d4a76036" />
+  <!--<project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />-->
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" />
   <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" revision="staging/rebase" />
-  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" />
+  <project path="vendor/motorola" name="proprietary/vendor/motorola" remote="gerrit" revision="752c56205cf192cce474d13dda8eea87b18f8934" />
+  <!--<project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" />-->
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
@@ -17,4 +22,4 @@
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="moto-msm8937/android_packages_apps_Updater" />
 
-</manifest>  
+</manifest>
