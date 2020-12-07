@@ -9,11 +9,7 @@
 
   <!--Qualcomm repos-->
   <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="c65becb1f99d00cd74e600f296d676e348d1cd9d" />
-
-  <!--Recovery-->
-  <remove-project name="LineageOS/android_bootable_recovery" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" revision="0a67c3bb6d37bc9a64681dba78df81fe1df450e3" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="d7b5e0324aaa235ab5451b85a94c33264a00456d" />
 
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
