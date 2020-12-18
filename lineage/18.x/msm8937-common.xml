@@ -8,8 +8,8 @@
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" />
 
   <!--Qualcomm repos-->
-  <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="d7b5e0324aaa235ab5451b85a94c33264a00456d" />
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_interfaces" groups="pdk" revision="d902037f0458602ae95a3c1546a63cef91777abb" />
 
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
