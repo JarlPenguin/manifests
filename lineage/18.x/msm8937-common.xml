@@ -9,7 +9,7 @@
 
   <!--Qualcomm repos-->
   <remove-project name="LineageOS/android_hardware_interfaces" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_interfaces" groups="pdk" revision="d902037f0458602ae95a3c1546a63cef91777abb" />
+  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" revision="d902037f0458602ae95a3c1546a63cef91777abb" />
 
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
