@@ -12,10 +12,6 @@
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="0db67ab37ae452329bb51acf48c3decc0e317326" />
   
-  <!--Qualcomm repos-->
-  <remove-project name="LineageOS/android_hardware_interfaces" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" revision="8fd638af73d7ad281f6c7c03b29f087757de3b28" />
-
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
