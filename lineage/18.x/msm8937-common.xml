@@ -7,7 +7,7 @@
   <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
   <project path="device/motorola/hannah-common" name="moto-msm8937/android_device_motorola_hannah-common" />
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="e851813e3b0adf8f811ad2243d5e2456a54d65f7" />
-  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="6c7f558dbcb1b1820b0ac52c48f41b689b47db4b" />
+  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="a429ec00f24477a9079448d4a333cf7d6889c204" />
   <project path="device/motorola/rhannah" name="moto-msm8937/android_device_motorola_rhannah" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="0db67ab37ae452329bb51acf48c3decc0e317326" />
