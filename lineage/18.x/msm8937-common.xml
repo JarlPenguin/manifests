@@ -3,7 +3,7 @@
 
   <!--Device repos--> 
   <project path="device/motorola/ahannah" name="moto-msm8937/android_device_motorola_ahannah" />
-  <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" revision="21b5c7344a246778de1e0d28c2eb3875152f9d08" />
+  <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" revision="c647e4de5bf71ea8bc4ec1cf9f0fbf282c271427" />
   <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
   <project path="device/motorola/hannah-common" name="moto-msm8937/android_device_motorola_hannah-common" revision="2bac8cfc5b2e5be3d203df9b28e10be6b4bdb8fe" />
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="c6fe03b617a45d62b75b964438ea97ecea3cca86" />
