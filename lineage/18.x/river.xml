@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Device repos--> 
+  <project path="device/motorola/river" name="LineageOS/android_device_motorola_river" />
+  <project path="device/motorola/sdm632-common" name="LineageOS/android_device_motorola_sdm632-common" revision="0fc7e937a2fb440debc66dc5c12cc9cb31c6681b" />
+  <project path="kernel/motorola/sdm632" name="LineageOS/android_kernel_motorola_sdm632" />
+  <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola" />
+  
+  <!--Dependencies-->
+  <project path="external/bson" name="LineageOS/android_external_bson" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" />
+
+</manifest>
