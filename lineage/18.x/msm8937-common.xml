@@ -22,8 +22,8 @@
 
   <!--Other repos-->
   <remove-project name="LineageOS/android_frameworks_av" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" revision="6aee82866bb9813555570ae60235e92ba7acec57" />
+  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" revision="a5f3364c7a38fe0629546feaf0863f252c35026d" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="9ee8c9a39497097a185330a5cbc08cd0f596dd1a" />
+  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="e682935037939e9ca9d7858970e27ce2ab56cf4b" />
 
 </manifest>
