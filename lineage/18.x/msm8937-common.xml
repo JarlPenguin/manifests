@@ -6,7 +6,7 @@
   <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" revision="c647e4de5bf71ea8bc4ec1cf9f0fbf282c271427" />
   <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
   <project path="device/motorola/hannah-common" name="moto-msm8937/android_device_motorola_hannah-common" revision="2bac8cfc5b2e5be3d203df9b28e10be6b4bdb8fe" />
-  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="c6fe03b617a45d62b75b964438ea97ecea3cca86" />
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="8a04f29dd29dab35d894ffb33ba0d73aafaa9a8a" />
   <project path="device/motorola/msm8937-common" name="LineageOS/android_device_motorola_msm8937-common" revision="e3ee0a674f0ec4064dba72847bb591feb5eb415f" />
   <project path="device/motorola/rhannah" name="moto-msm8937/android_device_motorola_rhannah" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" />
@@ -24,6 +24,6 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" revision="a5f3364c7a38fe0629546feaf0863f252c35026d" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="e682935037939e9ca9d7858970e27ce2ab56cf4b" />
+  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="b119a4d9c8384a2786a6671207adcb57e6273d04" />
 
 </manifest>
