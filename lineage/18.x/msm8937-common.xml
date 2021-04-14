@@ -24,6 +24,6 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" revision="a5f3364c7a38fe0629546feaf0863f252c35026d" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="b119a4d9c8384a2786a6671207adcb57e6273d04" />
+  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="0f8cf08d8465fbf513444624616086b5d2a0dda2" />
 
 </manifest>
