@@ -2,6 +2,6 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/cedric" name="android_device_motorola_cedric" remote="TeamWin" revision="80b4c2a8fdfecc4cb69621b689687dd70074db8a" />
+  <project path="device/motorola/cedric" name="android_device_motorola_cedric" remote="TeamWin" revision="cadd7d030f0d9251c77427673d1d40dd8fc2709c" />
 
 </manifest>
