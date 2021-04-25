@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Device repos--> 
+  <project path="device/motorola/cedric" name="android_device_motorola_cedric" remote="TeamWin" revision="b5ef4554398a7c5e46acb72e27f6d195998d0afe" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="TeamWin" revision="android-7.1" />
+
+</manifest>
