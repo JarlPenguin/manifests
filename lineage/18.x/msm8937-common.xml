@@ -20,10 +20,4 @@
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/apps/Updater" name="moto-msm8937/android_packages_apps_Updater" />
 
-  <!--Other repos-->
-  <remove-project name="LineageOS/android_frameworks_av" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" revision="a5f3364c7a38fe0629546feaf0863f252c35026d" />
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="JarlPenguin/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-
 </manifest>
