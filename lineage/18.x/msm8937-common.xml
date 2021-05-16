@@ -7,10 +7,10 @@
   <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
   <project path="device/motorola/hannah-common" name="moto-msm8937/android_device_motorola_hannah-common" />
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="ec4433df28cc09515504674a4a485094f1595f80" />
-  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="8bf447db678592ad1c7a852707113b62f1c0da65" />
+  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="6f25da742b920a5502ed9e6bdc29efd086d089b2" />
   <project path="device/motorola/rhannah" name="moto-msm8937/android_device_motorola_rhannah" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" />
-  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="32c37fef32a91d82672364334f3e47706f9db18e" />
+  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="5ebbef60e0ed3e9957c78b2fb3151e2cf6b3ec44" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
