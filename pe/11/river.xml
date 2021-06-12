@@ -16,6 +16,8 @@
   <!--Forks-->
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="eleven" />
+  <remove-project name="vendor_aosp" />
+  <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="eleven" />
 
   <!--Extra-->
   <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
