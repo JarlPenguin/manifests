@@ -6,10 +6,10 @@
            fetch="ssh://git@github.com" />
 
   <!--Device repos--> 
-  <project path="device/motorola/river" name="device_motorola_river" remote="pixel-devices" />
-  <project path="device/motorola/sdm632-common" name="device_motorola_sdm632-common" remote="pixel-devices" />
+  <project path="device/motorola/river" name="device_motorola_river" remote="pixel-devices" revision="eleven-wip" />
+  <project path="device/motorola/sdm632-common" name="device_motorola_sdm632-common" remote="pixel-devices" revision="eleven-wip" />
   <project path="hardware/motorola" name="hardware_motorola" remote="pixel-devices" />
-  <project path="kernel/motorola/sdm632" name="kernel_motorola_sdm632" remote="pixel-devices" />
+  <project path="kernel/motorola/sdm632" name="kernel_motorola_sdm632" remote="pixel-devices" revision="eleven-wip" />
   <project path="vendor/motorola/river" name="vendor_motorola_river" remote="pixel-devices-blobs" />
   <project path="vendor/motorola/sdm632-common" name="vendor_motorola_sdm632-common" remote="pixel-devices-blobs" />
 
@@ -23,4 +23,4 @@
   <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
   <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" remote="github" revision="eleven" />
 
-</manifest>  
+</manifest>
