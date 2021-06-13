@@ -13,14 +13,4 @@
   <project path="vendor/motorola/river" name="vendor_motorola_river" remote="pixel-devices-blobs" />
   <project path="vendor/motorola/sdm632-common" name="vendor_motorola_sdm632-common" remote="pixel-devices-blobs" />
 
-  <!--Forks-->
-  <remove-project name="frameworks_base" />
-  <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="eleven" />
-  <remove-project name="vendor_aosp" />
-  <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="eleven" />
-
-  <!--Extra-->
-  <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
-  <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" remote="github" revision="eleven" />
-
 </manifest>
