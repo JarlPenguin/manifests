@@ -13,8 +13,4 @@
   <project path="vendor/motorola/river" name="vendor_motorola_river" remote="pixel-devices-blobs" />
   <project path="vendor/motorola/sdm632-common" name="vendor_motorola_sdm632-common" remote="pixel-devices-blobs" />
 
-  <!--Forks-->
-  <remove-project name="packages_providers_DownloadProvider" />
-  <project path="packages/providers/DownloadProvider" name="JarlPenguin/packages_providers_DownloadProvider" remote="github" revision="eleven" />
-
 </manifest>
