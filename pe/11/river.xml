@@ -10,9 +10,7 @@
   <project path="device/motorola/sdm632-common" name="device_motorola_sdm632-common" remote="pixel-devices" revision="eleven-wip" />
   <project path="hardware/motorola" name="hardware_motorola" remote="pixel-devices" />
   <project path="kernel/motorola/sdm632" name="kernel_motorola_sdm632" remote="pixel-devices" revision="eleven-wip" />
-  <project path="packages/apps/MotCamera2" name="NemesisDevelopers/moto-camera/motorola_camera2_denali" remote="gitlab" revision="eleven-arm64" />
-  <project path="packages/apps/MotCamera2-overlay" name="NemesisDevelopers/moto-camera/motorola_camera2_overlay.git" remote="gitlab" revision="ten" />
-  <project path="packages/apps/MotoSignatureApp" name="NemesisDevelopers/motorola/motorola_motosignatureapp" remote="gitlab" revision="eleven" />
+  <project path="packages/apps/MotCamera2" name="packages_apps_MotCamera2" remote="pixel-devices-blobs" revision="eleven-denali-wip" />
   <project path="vendor/motorola/river" name="vendor_motorola_river" remote="pixel-devices-blobs" />
   <project path="vendor/motorola/sdm632-common" name="vendor_motorola_sdm632-common" remote="pixel-devices-blobs" />
   
