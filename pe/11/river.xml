@@ -29,8 +29,6 @@
   </project>
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="eleven" />
-  <remove-project name="system_core" />
-  <project path="system/core" name="JarlPenguin/system_core" remote="github" revision="eleven" />
   <remove-project name="vendor_aosp" />
   <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="eleven" />
 
