@@ -7,7 +7,7 @@
 
   <!--Device repos--> 
   <project path="device/motorola/river" name="device_motorola_river" remote="pixel-devices" />
-  <project path="device/motorola/sdm632-common" name="device_motorola_sdm632-common" remote="pixel-devices" />
+  <project path="device/motorola/sdm632-common" name="device_motorola_sdm632-common" remote="pixel-devices" revision="eleven-wip" />
   <project path="hardware/motorola" name="hardware_motorola" remote="pixel-devices" />
   <project path="kernel/motorola/sdm632" name="kernel_motorola_sdm632" remote="pixel-devices" />
   <project path="packages/apps/MotCamera2" name="packages_apps_MotCamera2" remote="pixel-devices-blobs" revision="eleven-denali" />
@@ -16,9 +16,9 @@
   
   <!--Forks-->
   <remove-project name="bootable_recovery" />
-  <project path="bootable/recovery" name="JarlPenguin/bootable_recovery" remote="github" revision="eleven" />
+  <project path="bootable/recovery" name="PixelExperience-Mod/bootable_recovery" remote="github" revision="eleven" />
   <remove-project name="build" />
-  <project path="build/make" name="JarlPenguin/build" remote="github" revision="eleven" >
+  <project path="build/make" name="PixelExperience-Mod/build" remote="github" revision="eleven" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -28,8 +28,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="frameworks_base" />
-  <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="eleven" />
+  <project path="frameworks/base" name="PixelExperience-Mod/frameworks_base" remote="github" revision="eleven" />
   <remove-project name="vendor_aosp" />
-  <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="eleven" />
+  <project path="vendor/aosp" name="PixelExperience-Mod/vendor_aosp" remote="github" revision="eleven" />
 
 </manifest>
