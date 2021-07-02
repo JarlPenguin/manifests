@@ -28,6 +28,6 @@
 
   <!--Extra-->
   <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
-  <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" />
+  <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" revision="lineage-18.1-mod" />
 
 </manifest>
