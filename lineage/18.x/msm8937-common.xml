@@ -10,7 +10,7 @@
   <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" />
   <project path="device/motorola/rhannah" name="moto-msm8937/android_device_motorola_rhannah" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" />
-  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="d79964fa27c2d51857e002f6f328bce8d25b703d" />
+  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="3dbd892b2629576ebacb8bec35fa8150be3b0720" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
