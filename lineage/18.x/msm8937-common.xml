@@ -6,11 +6,25 @@
   <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" />
   <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
   <project path="device/motorola/hannah-common" name="moto-msm8937/android_device_motorola_hannah-common" />
-  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" />
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="f7bed64349b361d5958f06d0363f4fe693500bbc" />
   <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" />
   <project path="device/motorola/rhannah" name="moto-msm8937/android_device_motorola_rhannah" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="3dbd892b2629576ebacb8bec35fa8150be3b0720" />
+
+  <!--Forks-->
+  <remove-project name="LineageOS/android_build" />
+  <project path="build/make" name="JarlPenguin/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="JarlPenguin/android_vendor_lineage" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
