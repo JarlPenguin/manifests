@@ -2,10 +2,6 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="android_device_motorola_montana" remote="TeamWin" revision="1909592e070a42b26242c41ce41c06c698661aeb" />
-  
-  <!--Recovery-->
-  <remove-project name="android_bootable_recovery" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="4a65b70fe001d810fb4bb8f94795eb82505357c3" />
+  <project path="device/motorola/montana" name="android_device_motorola_montana" remote="TeamWin" revision="e58e0bd01393d52d86365b197e6196d33d984945" />
 
 </manifest>
