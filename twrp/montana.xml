@@ -2,6 +2,6 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="android_device_motorola_montana" remote="TeamWin" revision="e58e0bd01393d52d86365b197e6196d33d984945" />
+  <project path="device/motorola/montana" name="android_device_motorola_montana" remote="TeamWin" revision="ac8a8d6a841e4977c80bdadf01f89e2fd8467f5d" />
 
 </manifest>
