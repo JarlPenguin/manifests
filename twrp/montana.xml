@@ -2,7 +2,7 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="android_device_motorola_montana" remote="TeamWin" revision="d50abce57c47edc74ca7d7632b7ee238a332220c" />
+  <project path="device/motorola/montana" name="android_device_motorola_montana" remote="TeamWin" revision="a595e9ae6a818e03448510d4cdd6ad9b497ebe4b" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />
 
 </manifest>
