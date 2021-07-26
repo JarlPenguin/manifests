@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Device repos--> 
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="5d1f7ccc9183d9291300ba17947c3dbc4791acb5" />
+  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="200a5afe98c353e16f6de7712e0018d11f084379" />
+  <project path="kernel/motorola/msm8953" name="wiktorek140/msm-4.9-new" revision="lineage-17.1" />
+  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="fb058da79bd36ef76a8cc0f73a4b6c87a194a103" />
+
+  <!--Forks-->
+  <remove-project name="LineageOS/android_build" />
+  <project path="build/make" name="LineageOS/android_build" groups="pdk" revision="8dee8b2d01362eb9af247a8c12a5415b15283b91" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="LineageOS/android_build_soong" />
+  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" revision="30dd2a707b1ae271035b17645dcca2ae5fa01ae8" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="0499ef4dee45d92110a68eb799a3ab20ffce3033" />
+  
+  <!--Dependencies-->
+  <project path="external/bson" name="LineageOS/android_external_bson" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" />
+
+  <!--Extra-->
+  <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
+  <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" />
+
+</manifest>
