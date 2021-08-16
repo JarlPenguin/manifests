@@ -2,8 +2,8 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="2ea913fcf4763be60d872187c175acf4e28b13a0" />
-  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="d9595d3678dba87b0212c0e30bf45f73d6e5857a" />
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="be3086886ab8503165d3681a46ad7ec86dbb8fa8" />
+  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="40a883ad6d83c82307ae58ecc71654862fbc800f" />
   <project path="kernel/motorola/msm8953" name="wiktorek140/msm-4.9-new" revision="lineage-18.1-rebase-2" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="4bfee12c11aecc1bfe5ff1d48225007b7e1cb507" />
 
