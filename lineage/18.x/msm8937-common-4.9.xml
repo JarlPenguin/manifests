@@ -24,7 +24,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="0e101dc5a104c9490f1895d962fa6d3488df1f97" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="ce92102be519bc736e0d8c7a4ac67543c635fe35" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
