@@ -9,7 +9,7 @@
 
   <!--Forks-->
   <remove-project name="LineageOS/android_build" />
-  <project path="build/make" name="LineageOS/android_build" groups="pdk" revision="03d9dcfced475db6f4b6111f70381cad68d9d80b" >
+  <project path="build/make" name="LineageOS/android_build" groups="pdk" revision="e129240bf3c80a8dc15a5eb1ab289c50f4f879bc" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -24,7 +24,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="ce92102be519bc736e0d8c7a4ac67543c635fe35" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="fad4142e6e5b990e5e147a233c87cd1cc0ef1603" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
