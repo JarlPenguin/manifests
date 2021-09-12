@@ -7,25 +7,6 @@
   <project path="kernel/motorola/msm8953" name="wiktorek140/msm-4.9-new" revision="lineage-18.1-rebase-2" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="4bfee12c11aecc1bfe5ff1d48225007b7e1cb507" />
 
-  <!--Forks-->
-  <remove-project name="LineageOS/android_build" />
-  <project path="build/make" name="LineageOS/android_build" groups="pdk" revision="e129240bf3c80a8dc15a5eb1ab289c50f4f879bc" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <remove-project name="LineageOS/android_build_soong" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" revision="3944dcf2fe570be85ed822a327b74ae1f60e153b" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="fad4142e6e5b990e5e147a233c87cd1cc0ef1603" />
-  
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
