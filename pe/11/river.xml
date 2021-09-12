@@ -8,7 +8,7 @@
   <!--Device repos--> 
   <project path="device/motorola/river" name="device_motorola_river" remote="pixel-devices" />
   <project path="device/motorola/sdm632-common" name="device_motorola_sdm632-common" remote="pixel-devices" />
-  <project path="hardware/motorola" name="PixelExperience-Mod/hardware_motorola" remote="github" revision="eleven" />
+  <project path="hardware/motorola" name="hardware_motorola" remote="pixel" />
   <project path="kernel/motorola/sdm632" name="kernel_motorola_sdm632" remote="pixel-devices" />
   <project path="packages/apps/MotCamera2" name="packages_apps_MotCamera2" remote="pixel-devices-blobs" revision="eleven-denali" />
   <project path="vendor/motorola/river" name="vendor_motorola_river" remote="pixel-devices-blobs" />
@@ -29,6 +29,8 @@
   </project>
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="PixelExperience-Mod/frameworks_base" remote="github" revision="eleven" />
+  <remove-project name="frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="PixelExperience-Mod/frameworks_opt_telephony" remote="github" revision="eleven" />
   <remove-project name="vendor_aosp" />
   <project path="vendor/aosp" name="PixelExperience-Mod/vendor_aosp" remote="github" revision="eleven" />
   <remove-project name="vendor_gapps" />
