@@ -12,4 +12,8 @@
   <project path="kernel/motorola/sdm632" name="LineageOS/android_kernel_motorola_sdm632" />
   <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola" clone-depth="1" />
   
+  <!--Dependencies-->
+  <project path="external/bson" name="LineageOS/android_external_bson" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" />
+
 </manifest>
