@@ -35,6 +35,7 @@
   <project path="frameworks/native" name="JarlPenguin/platform_frameworks_native" groups="pdk" remote="github" />
 
   <!--CodeAurora additions-->
+  <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-18.1-legacy-um" />
   <project path="hardware/qcom/msm8953/audio" name="JarlPenguin/platform_hardware_qcom_msm8953_audio" remote="github" />
   <project path="hardware/qcom/msm8953/data/ipacfg-mgr" name="JarlPenguin/platform_hardware_qcom_msm8953_data_ipacfg-mgr" remote="github" >
     <linkfile src="os_pickup.bp" dest="hardware/qcom/msm8953/Android.bp" />
