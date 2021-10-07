@@ -50,4 +50,8 @@
   <project path="vendor/qcom/msm8953/codeaurora/dataservices" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_dataservices" remote="github" />
   <project path="vendor/qcom/msm8953/codeaurora/commonsys/telephony" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_commonsys_telephony" remote="github" />
 
+  <!--LineageOS additions-->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-18.1" />
+
 </manifest>
