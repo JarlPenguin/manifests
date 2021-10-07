@@ -35,7 +35,10 @@
 
   <!--CodeAurora additions-->
   <project path="hardware/qcom/msm8953/audio" name="JarlPenguin/platform_hardware_qcom_msm8953_audio" remote="github" />
-  <project path="hardware/qcom/msm8953/data/ipacfg-mgr" name="JarlPenguin/platform_hardware_qcom_msm8953_data_ipacfg-mgr" remote="github" />
+  <project path="hardware/qcom/msm8953/data/ipacfg-mgr" name="JarlPenguin/platform_hardware_qcom_msm8953_data_ipacfg-mgr" remote="github" >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/msm8953/Android.mk" />
+  </project>
   <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github" />
   <project path="hardware/qcom/msm8953/media" name="JarlPenguin/platform_hardware_qcom_msm8953_media" remote="github" />
   <project path="hardware/qcom/msm8953/wlan" name="JarlPenguin/platform_hardware_qcom_msm8953_wlan" remote="github" />
