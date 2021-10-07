@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <!--Device repos--> 
+  <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" />
+  <project path="device/motorola/montana-kernel" name="JarlPenguin/device_motorola_montana-kernel" remote="github" />
+  <project path="device/motorola/msm8937-common" name="JarlPenguin/device_motorola_msm8937-common" remote="github" />
+  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="4bfee12c11aecc1bfe5ff1d48225007b7e1cb507" />
+
+  <!--Forks-->
+  <remove-project name="platform/build" />
+  <project path="build/make" name="JarlPenguin/platform_build" groups="pdk" remote="github" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="JarlPenguin/platform_build_soong" groups="pdk,tradefed" remote="github" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="JarlPenguin/platform_frameworks_av" groups="pdk" remote="github" />
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="JarlPenguin/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="JarlPenguin/platform_frameworks_native" groups="pdk" remote="github" />
+
+  <!--CodeAurora additions-->
+  <project path="hardware/qcom/msm8953/audio" name="JarlPenguin/platform_hardware_qcom_msm8953_audio" remote="github" />
+  <project path="hardware/qcom/msm8953/data/ipacfg-mgr" name="JarlPenguin/platform_hardware_qcom_msm8953_data_ipacfg-mgr" remote="github" />
+  <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github" />
+  <project path="hardware/qcom/msm8953/media" name="JarlPenguin/platform_hardware_qcom_msm8953_media" remote="github" />
+  <project path="hardware/qcom/msm8953/wlan" name="JarlPenguin/platform_hardware_qcom_msm8953_wlan" remote="github" />
+  <project path="vendor/qcom/codeaurora/core-utils/fwk-detect" name="JarlPenguin/platform_vendor_qcom_codeaurora_core-utils_fwk-detect" remote="github" />
+  <project path="vendor/qcom/codeaurora/interfaces" name="JarlPenguin/platform_vendor_qcom_codeaurora_interfaces" remote="github" />
+  <project path="vendor/qcom/codeaurora/power" name="JarlPenguin/platform_vendor_qcom_codeaurora_power" remote="github" />
+  <project path="vendor/qcom/codeaurora/vibrator" name="JarlPenguin/platform_vendor_qcom_codeaurora_vibrator" remote="github" />
+  <project path="vendor/qcom/msm8953/codeaurora/dataservices" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_dataservices" remote="github" />
+  <project path="vendor/qcom/msm8953/codeaurora/commonsys/telephony" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_commonsys_telephony" remote="github" />
+
+</manifest>
