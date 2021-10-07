@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com"
+           revision="android-11.0.0_r46" />
 
   <!--Device repos--> 
   <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" />
