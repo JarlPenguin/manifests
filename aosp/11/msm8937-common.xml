@@ -37,6 +37,8 @@
   <project path="frameworks/native" name="JarlPenguin/platform_frameworks_native" groups="pdk" remote="github" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="JarlPenguin/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" />
+  <remove-project name="platform/system/tools/mkbootimg" />
+  <project path="system/tools/mkbootimg" name="JarlPenguin/platform_system_tools_mkbootimg" groups="pdk" remote="github" />
 
   <!--CodeAurora additions-->
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-18.1-legacy-um" />
