@@ -33,6 +33,8 @@
   <project path="frameworks/base" name="JarlPenguin/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="JarlPenguin/platform_frameworks_native" groups="pdk" remote="github" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <project path="hardware/qcom/wlan" name="JarlPenguin/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" />
 
   <!--CodeAurora additions-->
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-18.1-legacy-um" />
@@ -43,7 +45,6 @@
   </project>
   <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github" />
   <project path="hardware/qcom/msm8953/media" name="JarlPenguin/platform_hardware_qcom_msm8953_media" remote="github" />
-  <project path="hardware/qcom/msm8953/wlan" name="JarlPenguin/platform_hardware_qcom_msm8953_wlan" remote="github" />
   <project path="vendor/qcom/codeaurora/core-utils/fwk-detect" name="JarlPenguin/platform_vendor_qcom_codeaurora_core-utils_fwk-detect" remote="github" />
   <project path="vendor/qcom/codeaurora/interfaces" name="JarlPenguin/platform_vendor_qcom_codeaurora_interfaces" remote="github" />
   <project path="vendor/qcom/codeaurora/power" name="JarlPenguin/platform_vendor_qcom_codeaurora_power" remote="github" />
