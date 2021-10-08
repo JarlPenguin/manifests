@@ -29,6 +29,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="JarlPenguin/platform_external_tinycompress" groups="pdk" remote="github" />
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="JarlPenguin/platform_frameworks_av" groups="pdk" remote="github" />
   <remove-project name="platform/frameworks/base" />
@@ -49,6 +51,7 @@
   </project>
   <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github" />
   <project path="hardware/qcom/msm8953/media" name="JarlPenguin/platform_hardware_qcom_msm8953_media" remote="github" />
+  <project path="vendor/qcom/codeaurora/audio" name="JarlPenguin/platform_vendor_qcom_codeaurora_audio" remote="github" />
   <project path="vendor/qcom/codeaurora/core-utils/fwk-detect" name="JarlPenguin/platform_vendor_qcom_codeaurora_core-utils_fwk-detect" remote="github" />
   <project path="vendor/qcom/codeaurora/interfaces" name="JarlPenguin/platform_vendor_qcom_codeaurora_interfaces" remote="github" />
   <project path="vendor/qcom/codeaurora/power" name="JarlPenguin/platform_vendor_qcom_codeaurora_power" remote="github" />
