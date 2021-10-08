@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           revision="android-11.0.0_r46" />
+           revision="refs/heads/android-11.0.0_r46" />
 
   <!--Device repos--> 
   <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" />
@@ -12,6 +12,8 @@
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" remote="github" revision="4bfee12c11aecc1bfe5ff1d48225007b7e1cb507" />
 
   <!--Forks-->
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="JarlPenguin/platform_bionic" groups="pdk" remote="github" />
   <remove-project name="platform/build" />
   <project path="build/make" name="JarlPenguin/platform_build" groups="pdk" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
