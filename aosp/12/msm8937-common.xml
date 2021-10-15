@@ -31,19 +31,15 @@
   </project>
   <remove-project name="platform/external/tinycompress" />
   <project path="external/tinycompress" name="JarlPenguin/platform_external_tinycompress" groups="pdk" remote="github" />
-  <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="JarlPenguin/platform_frameworks_av" groups="pdk" remote="github" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="JarlPenguin/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" />
-  <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="JarlPenguin/platform_frameworks_native" groups="pdk" remote="github" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="JarlPenguin/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <project path="system/tools/mkbootimg" name="JarlPenguin/platform_system_tools_mkbootimg" groups="pdk" remote="github" />
 
   <!--CodeAurora additions-->
-  <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-18.1-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy" remote="github" />
   <project path="hardware/qcom/msm8953/audio" name="JarlPenguin/platform_hardware_qcom_msm8953_audio" remote="github" />
   <project path="hardware/qcom/msm8953/data/ipacfg-mgr" name="JarlPenguin/platform_hardware_qcom_msm8953_data_ipacfg-mgr" remote="github" >
     <linkfile src="os_pickup.bp" dest="hardware/qcom/msm8953/Android.bp" />
@@ -59,7 +55,7 @@
   <project path="vendor/qcom/msm8953/codeaurora/commonsys/telephony" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_commonsys_telephony" remote="github" />
 
   <!--LineageOS additions-->
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-18.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.0" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-19.0" />
 
 </manifest>
