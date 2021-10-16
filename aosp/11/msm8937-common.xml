@@ -5,6 +5,9 @@
            fetch="https://github.com"
            revision="refs/heads/android-11.0.0_r46" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <!--Device repos--> 
   <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" />
   <project path="device/motorola/montana-kernel" name="JarlPenguin/device_motorola_montana-kernel" remote="github" />
@@ -65,5 +68,8 @@
   <!--LineageOS additions-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-18.1" />
+
+  <!--Extra-->
+  <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
 
 </manifest>
