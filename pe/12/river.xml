@@ -6,8 +6,6 @@
            fetch="ssh://git@github.com" />
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
-  <remote  name="gitlab-private"
-           fetch="ssh://git@gitlab.com" />
   <remote  name="pixel-devices-blobs"
            fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
@@ -44,6 +42,6 @@
   <!--Extra-->
   <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="github-private" revision="main" />
   <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" remote="github" revision="twelve" />
-  <project path="vendor/partner_modules" name="JarlPenguin/android_vendor_partner_modules" remote="gitlab-private" revision="twelve" />
+  <project path="vendor/partner_modules" name="JarlPenguin/android_vendor_partner_modules" remote="gitlab" revision="twelve" />
 
 </manifest>
