@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Remote-->
+  <remote  name="github-private"
+           fetch="ssh://git@github.com" />
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+  <remote  name="gitlab-private"
+           fetch="ssh://git@gitlab.com" />
+
+  <!--Device repos--> 
+  <project path="device/motorola/river" name="PixelExperience-Devices/device_motorola_river" remote="github" revision="twelve-wip" />
+  <project path="device/motorola/sdm632-common" name="PixelExperience-Devices/device_motorola_sdm632-common" remote="github" revision="twelve-wip" />
+  <project path="hardware/motorola" name="JarlPenguin/hardware_motorola" remote="github" revision="twelve-wip" />
+  <project path="kernel/motorola/sdm632" name="PixelExperience/kernel_motorola_sdm632" remote="github" revision="twelve-wip"/>
+  <project path="vendor/motorola/river" name="vendor_motorola_river" remote="pixel-devices-blobs" revision="twelve-wip" />
+  <project path="vendor/motorola/sdm632-common" name="vendor_motorola_sdm632-common" remote="pixel-devices-blobs" revision="twelve-wip" />
+
+  <!--Forks-->
+  <remove-project name="build" />
+  <project path="build/make" name="JarlPenguin/build" remote="github" revision="twelve">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="device_qcom_sepolicy-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy-legacy-um" remote="github" revision="twelve" />
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="twelve" />
+  <remove-project name="hardware_qcom-caf_wlan" />
+  <project path="hardware/qcom-caf/wlan" name="JarlPenguin/hardware_qcom-caf_wlan" remote="github" revision="twelve" />
+  <remove-project name="vendor_aosp" />
+  <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="twelve" />
+  <remove-project name="vendor_gapps" />
+  <project path="vendor/gapps" name="JarlPenguin/vendor_gapps" remote="gitlab" revision="twelve" clone-depth="1" />
+  
+  <!--Extra-->
+  <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="github-private" revision="main" />
+  <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" remote="github" revision="twelve" />
+  <project path="vendor/partner_modules" name="JarlPenguin/android_vendor_partner_modules" remote="gitlab-private" revision="twelve" />
+
+</manifest>
