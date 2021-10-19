@@ -8,6 +8,8 @@
            fetch="https://gitlab.com" />
   <remote  name="gitlab-private"
            fetch="ssh://git@gitlab.com" />
+  <remote  name="pixel-devices-blobs"
+           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
 
   <!--Device repos--> 
   <project path="device/motorola/river" name="PixelExperience-Devices/device_motorola_river" remote="github" revision="twelve-wip" />
