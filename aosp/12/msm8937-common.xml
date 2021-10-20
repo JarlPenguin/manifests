@@ -46,7 +46,7 @@
   <project path="system/tools/mkbootimg" name="JarlPenguin/platform_system_tools_mkbootimg" groups="pdk" remote="github" />
 
   <!--CodeAurora additions-->
-  <project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy" remote="github" />
+  <!--<project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy" remote="github" />
   <project path="hardware/qcom/msm8953/audio" name="JarlPenguin/platform_hardware_qcom_msm8953_audio" remote="github" />
   <project path="hardware/qcom/msm8953/data/ipacfg-mgr" name="JarlPenguin/platform_hardware_qcom_msm8953_data_ipacfg-mgr" remote="github" >
     <linkfile src="os_pickup.bp" dest="hardware/qcom/msm8953/Android.bp" />
@@ -59,7 +59,7 @@
   <project path="vendor/qcom/codeaurora/power" name="JarlPenguin/platform_vendor_qcom_codeaurora_power" remote="github" />
   <project path="vendor/qcom/codeaurora/vibrator" name="JarlPenguin/platform_vendor_qcom_codeaurora_vibrator" remote="github" />
   <project path="vendor/qcom/msm8953/codeaurora/dataservices" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_dataservices" remote="github" />
-  <project path="vendor/qcom/msm8953/codeaurora/commonsys/telephony" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_commonsys_telephony" remote="github" />
+  <project path="vendor/qcom/msm8953/codeaurora/commonsys/telephony" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_commonsys_telephony" remote="github" />-->
 
   <!--LineageOS additions-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.0" />
