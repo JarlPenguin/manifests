@@ -34,8 +34,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <remove-project name="platform/external/tinycompress" />
-  <project path="external/tinycompress" name="JarlPenguin/platform_external_tinycompress" groups="pdk" remote="github" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="JarlPenguin/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <remove-project name="platform/frameworks/native" />
