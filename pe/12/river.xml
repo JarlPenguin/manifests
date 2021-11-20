@@ -11,8 +11,8 @@
   <project path="device/motorola/river" name="device_motorola_river" remote="pixel-devices" revision="twelve-wip" />
   <project path="device/motorola/sdm632-common" name="device_motorola_sdm632-common" remote="pixel-devices" revision="twelve-wip" />
   <project path="hardware/motorola" name="JarlPenguin/hardware_motorola" remote="github" revision="twelve" />
-  <project path="kernel/motorola/sdm632" name="kernel_motorola_sdm632" remote="pixel-devices" revision="twelve-wip"/>
-  <project path="packages/apps/MotCamera2" name="packages_apps_MotCamera2" remote="pixel-devices-blobs" revision="eleven-denali" />
+  <project path="kernel/motorola/sdm632" name="kernel_motorola_sdm632" remote="pixel-devices" revision="twelve-wip" />
+  <project path="packages/apps/MotCamera2" name="packages_apps_MotCamera2" remote="pixel-devices-blobs" revision="twelve-denali" />
   <project path="vendor/motorola/river" name="vendor_motorola_river" remote="pixel-devices-blobs" />
   <project path="vendor/motorola/sdm632-common" name="vendor_motorola_sdm632-common" remote="pixel-devices-blobs" />
 
