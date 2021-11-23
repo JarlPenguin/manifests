@@ -55,13 +55,13 @@
   </project>
   <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github-aosp" />
   <project path="hardware/qcom/msm8953/media" name="JarlPenguin/platform_hardware_qcom_msm8953_media" remote="github-aosp" />
-  <project path="vendor/qcom/codeaurora/core-utils/fwk-detect" name="JarlPenguin/platform_vendor_qcom_codeaurora_core-utils_fwk-detect" remote="github-aosp" />
-  <project path="vendor/qcom/codeaurora/interfaces" name="JarlPenguin/platform_vendor_qcom_codeaurora_interfaces" remote="github-aosp" />
   <project path="vendor/qcom/codeaurora/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github-aosp" revision="lineage-18.1" />
   <project path="vendor/qcom/codeaurora/power" name="JarlPenguin/platform_vendor_qcom_codeaurora_power" remote="github-aosp" />
   <project path="vendor/qcom/codeaurora/vibrator" name="JarlPenguin/platform_vendor_qcom_codeaurora_vibrator" remote="github-aosp" />
   <project path="vendor/qcom/msm8953/codeaurora/dataservices" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_dataservices" remote="github-aosp" />
   <project path="vendor/qcom/msm8953/codeaurora/commonsys/telephony" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_commonsys_telephony" remote="github-aosp" />
+  <remove-project name="android_vendor_qcom_opensource_interfaces" />
+  <project path="vendor/qcom/opensource/interfaces" name="JarlPenguin/android_vendor_qcom_opensource_interfaces" groups="proton" remote="github" revision="sc" />
 
   <!--LineageOS additions-->
   <project path="packages/apps/FMRadio" name="JarlPenguin/platform_packages_apps_FMRadio" remote="github-aosp" />
