@@ -46,7 +46,8 @@
   <project path="system/tools/mkbootimg" name="JarlPenguin/platform_system_tools_mkbootimg" groups="pdk" remote="github" />
 
   <!--CodeAurora additions-->
-  <project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy" remote="github" />
+  <!--<project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy" remote="github" />-->
+  <project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy-legacy-um" remote="github" revision="twelve" />
   <project path="hardware/qcom/msm8953/audio" name="JarlPenguin/platform_hardware_qcom_msm8953_audio" remote="github" />
   <project path="hardware/qcom/msm8953/data/ipacfg-mgr" name="JarlPenguin/platform_hardware_qcom_msm8953_data_ipacfg-mgr" remote="github" >
     <linkfile src="os_pickup.bp" dest="hardware/qcom/msm8953/Android.bp" />
