@@ -37,6 +37,7 @@
   <project path="frameworks/base" name="JarlPenguin/android_frameworks_base" groups="proton" remote="github" revision="sc" />
   <remove-project name="android_frameworks_native" />
   <project path="frameworks/native" name="JarlPenguin/android_frameworks_native" groups="proton" remote="github-aosp" revision="sc" />
+  <remove-project name="android_hardware_qcom_sm8150_display" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="JarlPenguin/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github-aosp" />
   <remove-project name="platform/system/tools/mkbootimg" />
