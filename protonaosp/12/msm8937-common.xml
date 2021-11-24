@@ -36,7 +36,9 @@
   <remove-project name="android_frameworks_base" />
   <project path="frameworks/base" name="JarlPenguin/android_frameworks_base" groups="proton" remote="github" revision="sc" />
   <remove-project name="android_frameworks_native" />
-  <project path="frameworks/native" name="JarlPenguin/android_frameworks_native" groups="proton" remote="github-aosp" revision="sc" />
+  <project path="frameworks/native" name="JarlPenguin/android_frameworks_native" groups="proton" remote="github" revision="sc" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="JarlPenguin/platform_hardware_libhardware" groups="pdk" remote="github-aosp" />
   <remove-project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" />
   <project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" path="hardware/qcom/sm8150/data/ipacfg-mgr" remote="proton" groups="proton" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
