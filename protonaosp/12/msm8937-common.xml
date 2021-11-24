@@ -60,7 +60,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/msm8953/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom/msm8953/Android.mk" />
   </project>
-  <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github-aosp" />
+  <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github" revision="sc" />
   <project path="hardware/qcom/msm8953/media" name="JarlPenguin/platform_hardware_qcom_msm8953_media" remote="github-aosp" />
   <project path="vendor/qcom/codeaurora/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="github-aosp" revision="lineage-18.1" />
   <project path="vendor/qcom/codeaurora/power" name="JarlPenguin/platform_vendor_qcom_codeaurora_power" remote="github-aosp" />
