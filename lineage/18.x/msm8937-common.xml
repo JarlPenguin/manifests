@@ -6,10 +6,10 @@
   <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" />
   <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
   <project path="device/motorola/hannah-common" name="moto-msm8937/android_device_motorola_hannah-common" />
-  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="2ff93a8886c97fca0993e39f3fc317dd5126ab76" />
-  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="f5c8902b053777db7979e462c6ea290b2ecc2ad1" />
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="bfca071453204b3f0484fc7c5a2733885f686926" />
+  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="6786fa90329b431ca0ded6f9c878a191eb332e47" />
   <project path="device/motorola/rhannah" name="moto-msm8937/android_device_motorola_rhannah" />
-  <project path="kernel/motorola/msm8953" name="moto-msm8937/android_kernel_motorola_msm8953" />
+  <project path="kernel/motorola/msm8953" name="moto-msm8937/android_kernel_motorola_msm8953" revision="612c0467bf74f40e2ee1e7b1e0dc23f0eaf883c2" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" />
 
   <!--Dependencies-->
