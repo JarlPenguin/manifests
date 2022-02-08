@@ -9,6 +9,7 @@
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="bfca071453204b3f0484fc7c5a2733885f686926" />
   <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="6786fa90329b431ca0ded6f9c878a191eb332e47" />
   <project path="device/motorola/rhannah" name="moto-msm8937/android_device_motorola_rhannah" />
+  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" />
   <project path="kernel/motorola/msm8953" name="moto-msm8937/android_kernel_motorola_msm8953" revision="612c0467bf74f40e2ee1e7b1e0dc23f0eaf883c2" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" />
 
