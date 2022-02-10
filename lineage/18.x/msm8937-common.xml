@@ -13,6 +13,10 @@
   <project path="kernel/motorola/msm8953" name="moto-msm8937/android_kernel_motorola_msm8953" revision="612c0467bf74f40e2ee1e7b1e0dc23f0eaf883c2" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" />
 
+  <!--Forks-->
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
+
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
