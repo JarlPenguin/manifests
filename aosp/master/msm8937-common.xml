@@ -45,6 +45,8 @@
   <project path="hardware/libhardware" name="JarlPenguin/platform_hardware_libhardware" groups="pdk" remote="github" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="JarlPenguin/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="JarlPenguin/platform_packages_apps_Settings" groups="pdk-fs" remote="github" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="JarlPenguin/platform_system_extras" groups="pdk" remote="github" />
   <remove-project name="platform/system/tools/mkbootimg" />
