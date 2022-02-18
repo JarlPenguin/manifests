@@ -9,6 +9,7 @@
   <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" revision="sc" />
   <project path="device/motorola/montana-kernel" name="JarlPenguin/device_motorola_montana-kernel" remote="github" revision="sc" />
   <project path="device/motorola/msm8937-common" name="JarlPenguin/device_motorola_msm8937-common" remote="github" revision="sc" />
+  <project path="hardware/motorola" name="JarlPenguin/platform_hardware_motorola" remote="github-aosp" />
   <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola-1" remote="github" revision="sc" />
 
   <!--Forks-->

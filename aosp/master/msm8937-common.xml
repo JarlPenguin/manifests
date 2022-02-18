@@ -12,6 +12,7 @@
   <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" />
   <project path="device/motorola/montana-kernel" name="JarlPenguin/device_motorola_montana-kernel" remote="github" />
   <project path="device/motorola/msm8937-common" name="JarlPenguin/device_motorola_msm8937-common" remote="github" />
+  <project path="hardware/motorola" name="JarlPenguin/platform_hardware_motorola" remote="github" />
   <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola-1" remote="github" />
 
   <!--Forks-->
