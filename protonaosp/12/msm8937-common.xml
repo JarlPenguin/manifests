@@ -47,8 +47,6 @@
   </project>
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="JarlPenguin/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github-aosp" />
-  <remove-project name="android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="JarlPenguin/android_packages_apps_Settings" groups="proton" remote="github" revision="sc" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <project path="system/tools/mkbootimg" name="JarlPenguin/platform_system_tools_mkbootimg" groups="pdk" remote="github-aosp" />
   <remove-project name="platform/system/extras" />
