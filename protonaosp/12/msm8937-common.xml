@@ -3,20 +3,20 @@
 
   <remote  name="github-aosp"
            fetch="https://github.com"
-           revision="refs/heads/android-12.0.0_r32" />
+           revision="refs/heads/android-12.1.0_r1" />
 
   <!--Device repos--> 
-  <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" revision="sc" />
-  <project path="device/motorola/montana-kernel" name="JarlPenguin/device_motorola_montana-kernel" remote="github" revision="sc" />
-  <project path="device/motorola/msm8937-common" name="JarlPenguin/device_motorola_msm8937-common" remote="github" revision="sc" />
+  <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" revision="sc-v2" />
+  <project path="device/motorola/montana-kernel" name="JarlPenguin/device_motorola_montana-kernel" remote="github" revision="sc-v2" />
+  <project path="device/motorola/msm8937-common" name="JarlPenguin/device_motorola_msm8937-common" remote="github" revision="sc-v2" />
   <project path="hardware/motorola" name="JarlPenguin/platform_hardware_motorola" remote="github-aosp" />
-  <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola-1" remote="github" revision="sc" />
+  <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola-1" remote="github" revision="sc-v2" />
 
   <!--Forks-->
   <remove-project name="android_bionic" />
-  <project path="bionic" name="JarlPenguin/android_bionic" groups="proton" remote="github" revision="sc" />
+  <project path="bionic" name="JarlPenguin/android_bionic" groups="proton" remote="github" revision="sc-v2" />
   <remove-project name="android_build_make" />
-  <project path="build/make" name="JarlPenguin/android_build_make" groups="proton" remote="github" revision="sc">
+  <project path="build/make" name="JarlPenguin/android_build_make" groups="proton" remote="github" revision="sc-v2">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,16 +26,16 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="android_build_soong" />
-  <project path="build/soong" name="JarlPenguin/android_build_soong" groups="proton" remote="github" revision="sc">
+  <project path="build/soong" name="JarlPenguin/android_build_soong" groups="proton" remote="github" revision="sc-v2">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="JarlPenguin/platform_frameworks_av" groups="pdk" remote="github-aosp" />
   <remove-project name="android_frameworks_base" />
-  <project path="frameworks/base" name="JarlPenguin/android_frameworks_base" groups="proton" remote="github" revision="sc" />
+  <project path="frameworks/base" name="JarlPenguin/android_frameworks_base" groups="proton" remote="github" revision="sc-v2" />
   <remove-project name="android_frameworks_native" />
-  <project path="frameworks/native" name="JarlPenguin/android_frameworks_native" groups="proton" remote="github" revision="sc" />
+  <project path="frameworks/native" name="JarlPenguin/android_frameworks_native" groups="proton" remote="github" revision="sc-v2" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="JarlPenguin/platform_frameworks_opt_telephony" groups="pdk" remote="github-aosp" />
   <remove-project name="platform/hardware/interfaces" />
@@ -45,15 +45,15 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="JarlPenguin/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github-aosp" />
   <remove-project name="android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="JarlPenguin/android_packages_apps_Settings" groups="proton" remote="github" revision="sc" />
+  <project path="packages/apps/Settings" name="JarlPenguin/android_packages_apps_Settings" groups="proton" remote="github" revision="sc-v2" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <project path="system/tools/mkbootimg" name="JarlPenguin/platform_system_tools_mkbootimg" groups="pdk" remote="github-aosp" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="JarlPenguin/platform_system_extras" groups="pdk" remote="github-aosp" />
   <remove-project name="android_system_sepolicy" />
-  <project path="system/sepolicy" name="JarlPenguin/android_system_sepolicy" groups="proton" remote="github" revision="sc" />
+  <project path="system/sepolicy" name="JarlPenguin/android_system_sepolicy" groups="proton" remote="github" revision="sc-v2" />
   <remove-project name="android_vendor_proton" />
-  <project path="vendor/proton" name="JarlPenguin/android_vendor_proton" groups="proton" remote="github" revision="sc" />
+  <project path="vendor/proton" name="JarlPenguin/android_vendor_proton" groups="proton" remote="github" revision="sc-v2" />
 
   <!--CodeAurora additions-->
   <project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy" remote="github-aosp" />
@@ -62,7 +62,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/msm8953/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom/msm8953/Android.mk" />
   </project>
-  <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github" revision="sc" />
+  <project path="hardware/qcom/msm8953/display" name="JarlPenguin/platform_hardware_qcom_msm8953_display" remote="github" revision="sc-v2" />
   <project path="hardware/qcom/msm8953/media" name="JarlPenguin/platform_hardware_qcom_msm8953_media" remote="github-aosp" />
   <project path="vendor/qcom/codeaurora/fm-commonsys" name="JarlPenguin/platform_vendor_qcom_codeaurora_fm-commonsys" remote="github-aosp" />
   <project path="vendor/qcom/codeaurora/power" name="JarlPenguin/platform_vendor_qcom_codeaurora_power" remote="github-aosp" />
@@ -70,10 +70,10 @@
   <project path="vendor/qcom/msm8953/codeaurora/dataservices" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_dataservices" remote="github-aosp" />
   <project path="vendor/qcom/msm8953/codeaurora/commonsys/telephony" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_commonsys_telephony" remote="github-aosp" />
   <remove-project name="android_vendor_qcom_opensource_interfaces" />
-  <project path="vendor/qcom/opensource/interfaces" name="JarlPenguin/android_vendor_qcom_opensource_interfaces" groups="proton" remote="github" revision="sc" />
+  <project path="vendor/qcom/opensource/interfaces" name="JarlPenguin/android_vendor_qcom_opensource_interfaces" groups="proton" remote="github" revision="sc-v2" />
 
   <!--LineageOS additions-->
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.0" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
 
   <!--Extra-->
   <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="github-ssh" revision="main" />
