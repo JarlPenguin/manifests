@@ -54,6 +54,7 @@
   <project path="system/sepolicy" name="JarlPenguin/android_system_sepolicy" groups="proton" remote="github" revision="sc-v2" />
   <remove-project name="android_vendor_proton" />
   <project path="vendor/proton" name="JarlPenguin/android_vendor_proton" groups="proton" remote="github" revision="sc-v2" />
+  <remove-project name="android_vendor_google_devices" />
 
   <!--CodeAurora additions-->
   <project path="device/qcom/sepolicy-legacy-um" name="JarlPenguin/device_qcom_sepolicy" remote="github-aosp" />
