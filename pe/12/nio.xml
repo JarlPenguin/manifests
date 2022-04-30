@@ -9,7 +9,7 @@
 
   <!--Device repos--> 
   <project path="device/motorola/nio" name="JarlPenguin/device_motorola_nio" remote="github" revision="twelve" />
-  <project path="hardware/motorola" name="hardware_motorola" remote="pixel" />
+  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="github" revision="lineage-19.1" />
   <project path="kernel/motorola/sm8250" name="JarlPenguin/kernel_motorola_sm8250" remote="github" revision="twelve" />
   <project path="packages/apps/MotCamera3" name="JarlPenguin/packages_apps_MotCamera3" remote="gitlab" revision="twelve-nio" />
   <project path="vendor/motorola/nio" name="JarlPenguin/vendor_motorola_nio" remote="github" revision="twelve" />
