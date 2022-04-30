@@ -27,6 +27,7 @@
   </project>
   <remove-project name="hardware_qcom-caf_sm8250_display" />
   <project path="hardware/qcom-caf/sm8250/display" name="JarlPenguin/hardware_qcom-caf_sm8250_display" remote="github" revision="twelve" />
+  <remove-project name="system_qcom" />
   <remove-project name="vendor_aosp" />
   <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="twelve" />
   <remove-project name="vendor_gapps" />
