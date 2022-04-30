@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Remote-->
+  <remote  name="github-private"
+           fetch="ssh://git@github.com" />
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <!--Device repos--> 
+  <project path="device/motorola/nio" name="JarlPenguin/device_motorola_nio" remote="github" revision="twelve" />
+  <project path="hardware/motorola" name="hardware_motorola" remote="pixel" />
+  <project path="kernel/motorola/sm8250" name="JarlPenguin/kernel_motorola_sm8250" remote="github" revision="twelve" />
+  <project path="packages/apps/MotCamera3" name="JarlPenguin/packages_apps_MotCamera3" remote="gitlab" revision="twelve-nio" />
+  <project path="vendor/motorola/nio" name="JarlPenguin/vendor_motorola_nio" remote="github" revision="twelve" />
+
+  <!--Forks-->
+  <remove-project name="build" />
+  <project path="build/make" name="JarlPenguin/build" remote="github" revision="twelve">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="hardware_qcom-caf_sm8250_display" />
+  <project path="hardware/qcom-caf/sm8250/display" name="JarlPenguin/hardware_qcom-caf_sm8250_display" remote="github" revision="twelve" />
+  <remove-project name="vendor_aosp" />
+  <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="twelve" />
+  <remove-project name="vendor_gapps" />
+  <project path="vendor/gapps" name="JarlPenguin/vendor_gapps" remote="gitlab" revision="twelve" clone-depth="1" />
+  
+  <!--Extra-->
+  <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="github-private" revision="main" />
+  <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" remote="github" revision="twelve" />
+
+</manifest>
