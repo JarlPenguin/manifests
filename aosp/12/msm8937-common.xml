@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           revision="refs/heads/android-12.1.0_r1" />
+           revision="refs/heads/android-12.1.0_r4" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -72,8 +72,8 @@
   <project path="vendor/qcom/msm8953/codeaurora/commonsys/telephony" name="JarlPenguin/platform_vendor_qcom_msm8953_codeaurora_commonsys_telephony" remote="github" />
 
   <!--LineageOS additions-->
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.0" />
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-19.0" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-19.1" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-19.1" />
 
   <!--Extra-->
   <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
