@@ -3,7 +3,7 @@
 
   <remote  name="github-aosp"
            fetch="https://github.com"
-           revision="refs/heads/android-12.1.0_r1" />
+           revision="refs/heads/android-12.1.0_r4" />
 
   <!--Device repos--> 
   <project path="device/motorola/montana" name="JarlPenguin/device_motorola_montana" remote="github" revision="sc-v2" />
