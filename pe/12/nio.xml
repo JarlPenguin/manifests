@@ -15,9 +15,15 @@
   <project path="vendor/motorola/nio" name="JarlPenguin/vendor_motorola_nio" remote="github" revision="twelve" />
 
   <!--Forks-->
+  <remove-project name="bootable_recovery" />
+  <project path="bootable/recovery" name="JarlPenguin/bootable_recovery" remote="github" revision="twelve" />
   <remove-project name="hardware_qcom-caf_sm8250_display" />
   <project path="hardware/qcom-caf/sm8250/display" name="JarlPenguin/hardware_qcom-caf_sm8250_display" remote="github" revision="twelve" />
   <remove-project name="system_qcom" />
+  <remove-project name="system_update_engine" />
+  <project path="system/update_engine" name="JarlPenguin/system_update_engine" remote="github" revision="twelve" />
+  <remove-project name="vendor_aosp" />
+  <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="twelve" />
   <remove-project name="vendor_gapps" />
   <project path="vendor/gapps" name="JarlPenguin/vendor_gapps" remote="gitlab" revision="twelve" clone-depth="1" />
   
