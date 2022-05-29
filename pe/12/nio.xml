@@ -19,7 +19,6 @@
   <project path="bootable/recovery" name="JarlPenguin/bootable_recovery" remote="github" revision="twelve" />
   <remove-project name="hardware_qcom-caf_sm8250_display" />
   <project path="hardware/qcom-caf/sm8250/display" name="JarlPenguin/hardware_qcom-caf_sm8250_display" remote="github" revision="twelve" />
-  <remove-project name="system_qcom" />
   <remove-project name="system_update_engine" />
   <project path="system/update_engine" name="JarlPenguin/system_update_engine" remote="github" revision="twelve" />
   <remove-project name="vendor_aosp" />
