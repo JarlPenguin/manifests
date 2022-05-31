@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch="https://github.com"
-           revision="refs/heads/android-12.1.0_r4" />
+           revision="refs/heads/android-12.1.0_r5" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
