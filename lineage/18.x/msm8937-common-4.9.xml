@@ -13,6 +13,7 @@
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
 
   <!--Extra-->
+  <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
   <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" />
 
 </manifest>
