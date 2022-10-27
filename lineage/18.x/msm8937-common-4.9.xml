@@ -8,10 +8,6 @@
   <project path="kernel/motorola/msm8953" name="wiktorek140/msm-4.9-new" revision="lineage-18.1-rebase-2" />
   <project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola-1" />
 
-  <!--Forks-->
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="JarlPenguin/android_vendor_lineage" />
-
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" />
