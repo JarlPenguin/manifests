@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--Remote-->
+  <remote  name="github-private"
+           fetch="ssh://git@github.com" />
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <!--Device repos--> 
+  <project path="device/motorola/nio" name="JarlPenguin/device_motorola_nio" remote="github" revision="thirteen" />
+  <project path="device/motorola/sm8250-common" name="JarlPenguin/device_motorola_sm8250-common" remote="github" revision="thirteen" />
+  <project path="hardware/motorola" name="hardware_motorola" remote="pixel" />
+  <project path="kernel/motorola/sm8250" name="JarlPenguin/kernel_motorola_sm8250" remote="github" revision="thirteen" />
+  <project path="packages/apps/MotCamera3" name="JarlPenguin/packages_apps_MotCamera3" remote="gitlab" revision="thirteen-sm8250" />
+  <project path="vendor/motorola/nio" name="JarlPenguin/vendor_motorola_nio" remote="github" revision="thirteen" />
+  <project path="vendor/motorola/sm8250-common" name="JarlPenguin/vendor_motorola_sm8250-common" remote="github" revision="thirteen" />
+
+  <!--Forks-->
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="thirteen" />
+  <remove-project name="packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="JarlPenguin/packages_apps_Settings" remote="github" revision="thirteen" />
+  <remove-project name="vendor_aosp" />
+  <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="thirteen" />
+  
+  <!--Extra-->
+  <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="github-private" revision="main" />
+  <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" remote="github" revision="thirteen" />
+
+</manifest>
