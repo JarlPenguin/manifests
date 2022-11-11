@@ -16,6 +16,9 @@
   <project path="vendor/motorola/nio" name="JarlPenguin/vendor_motorola_nio" remote="github" revision="thirteen" />
   <project path="vendor/motorola/sm8250-common" name="JarlPenguin/vendor_motorola_sm8250-common" remote="github" revision="thirteen" />
 
+  <!--Dependencies-->
+  <project path="system/qcom" name="system_qcom" remote="pixel" />
+
   <!--Forks-->
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="thirteen" />
