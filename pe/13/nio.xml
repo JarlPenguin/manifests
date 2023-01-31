@@ -12,6 +12,7 @@
   <project path="device/motorola/sm8250-common" name="JarlPenguin/device_motorola_sm8250-common" remote="github" revision="thirteen" />
   <project path="hardware/motorola" name="hardware_motorola" remote="pixel" />
   <project path="kernel/motorola/sm8250" name="JarlPenguin/kernel_motorola_sm8250" remote="github" revision="thirteen" />
+  <project path="packages/apps/MotCamera4" name="JarlPenguin/packages_apps_MotCamera4" remote="gitlab" revision="thirteen-nio" />
   <project path="vendor/motorola/nio" name="JarlPenguin/vendor_motorola_nio" remote="github" revision="thirteen" />
   <project path="vendor/motorola/sm8250-common" name="JarlPenguin/vendor_motorola_sm8250-common" remote="github" revision="thirteen" />
 
