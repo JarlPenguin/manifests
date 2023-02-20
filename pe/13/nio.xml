@@ -26,6 +26,8 @@
   <project path="packages/apps/Settings" name="JarlPenguin/packages_apps_Settings" remote="github" revision="thirteen" />
   <remove-project name="vendor_aosp" />
   <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="thirteen" />
+  <remove-project name="vendor_pixel-framework" />
+  <project path="vendor/pixel-framework" name="JarlPenguin/vendor_pixel-framework" remote="github" revision="thirteen" />
     
   <!--Extra-->
   <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="github-private" revision="main" />
