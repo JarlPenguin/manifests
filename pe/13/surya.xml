@@ -9,7 +9,7 @@
 
   <!--Device repos--> 
   <project path="device/xiaomi/surya" name="JarlPenguin/device_xiaomi_surya" remote="github" revision="thirteen" />
-  <project path="device/xiaomi/surya-miuicamera" name="CHRISL7/device_xiaomi_surya-miuicamera" remote="github" revision="thirteen" />
+  <project path="device/xiaomi/surya-miuicamera" name="JarlPenguin/device_xiaomi_surya-miuicamera" remote="github" revision="thirteen" />
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
   <project path="kernel/xiaomi/surya" name="LineageOS/android_kernel_xiaomi_surya" remote="github" revision="lineage-20" />
   <project path="vendor/xiaomi/surya" name="JarlPenguin/vendor_xiaomi_surya-private" remote="github-private" revision="thirteen" />
