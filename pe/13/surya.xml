@@ -13,7 +13,7 @@
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
   <project path="kernel/xiaomi/surya" name="LineageOS/android_kernel_xiaomi_surya" remote="github" revision="lineage-20" />
   <project path="vendor/xiaomi/surya" name="JarlPenguin/vendor_xiaomi_surya-private" remote="github-private" revision="thirteen" />
-  <project path="vendor/xiaomi/surya-miuicamera" name="chriws444/vendor_xiaomi_surya-miuicamera" remote="gitlab" revision="thirteen" />
+  <project path="vendor/xiaomi/surya-miuicamera" name="chrisw444/vendor_xiaomi_surya-miuicamera" remote="gitlab" revision="thirteen" />
 
   <!--Forks-->
   <remove-project name="frameworks_base" />
