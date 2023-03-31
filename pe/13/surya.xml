@@ -16,8 +16,17 @@
   <project path="vendor/xiaomi/surya-miuicamera" name="chrisw444/vendor_xiaomi_surya-miuicamera" remote="gitlab" revision="thirteen" />
 
   <!--Forks-->
+  <remove-project name="bionic" />
+  <project path="bionic" name="JarlPenguin/bionic" remote="github" revision="thirteen" />
+  <remove-project name="build_soong" />
+  <project path="build/soong" name="JarlPenguin/build_soong" remote="github" revision="thirteen" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="thirteen" />
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/av" name="JarlPenguin/frameworks_av" remote="github" revision="thirteen" />
   <remove-project name="vendor_aosp" />
   <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="thirteen" />
   <remove-project name="vendor_gms" />
