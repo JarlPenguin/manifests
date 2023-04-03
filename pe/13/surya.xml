@@ -16,6 +16,8 @@
   <project path="vendor/xiaomi/surya-miuicamera" name="JarlPenguin/vendor_xiaomi_surya-miuicamera" remote="gitlab" revision="thirteen" />
 
   <!--Forks-->
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/av" name="JarlPenguin/frameworks_av" remote="github" revision="thirteen" />
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="thirteen" />
   <remove-project name="vendor_aosp" />
