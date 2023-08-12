@@ -22,6 +22,8 @@
   <project path="frameworks/base" name="JarlPenguin/frameworks_base" remote="github" revision="thirteen" />
   <remove-project name="frameworks_native" />
   <project path="frameworks/native" name="JarlPenguin/frameworks_native" remote="github" revision="thirteen" />
+  <remove-project name="packages_modules_Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="JarlPenguin/packages_modules_Bluetooth" remote="github" revision="thirteen" />
   <remove-project name="vendor_aosp" />
   <project path="vendor/aosp" name="JarlPenguin/vendor_aosp" remote="github" revision="thirteen" />
   <remove-project name="vendor_gms" />
