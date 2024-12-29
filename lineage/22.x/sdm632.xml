@@ -3,7 +3,7 @@
 
   <!--Device repos-->
   <project path="device/motorola/river" name="LineageOS/android_device_motorola_river" />
-  <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_sdm632-common" />
+  <project path="device/motorola/sdm632-common" name="JarlPenguin/android_device_motorola_sdm632-common" />
   <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" />
   <project path="kernel/motorola/sdm632" name="LineageOS/android_kernel_motorola_sdm632" />
   <project path="vendor/motorola/sdm632-common" name="JarlPenguin/proprietary_vendor_motorola_sdm632-common" />
