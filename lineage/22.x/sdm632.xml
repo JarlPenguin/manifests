@@ -17,4 +17,7 @@
   <project path="vendor/certs" name="JarlPenguin/android_vendor_certs" remote="private" revision="main" />
   <project path="vendor/extra" name="JarlPenguin/android_vendor_extra" />
 
+  <!--Forks-->
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys"/>
+  <project path="vendor/qcom/opensource/commonsys/fm" name="JarlPenguin/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
 </manifest>
